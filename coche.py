@@ -1,9 +1,9 @@
 __author__ = 'alex'
 
 class Coche:
-    def __init__(self,varMatricula,varCondicio):
+    def __init__(self,varMatricula):
         self.varMatricula = varMatricula
-        self.varCondicio = varCondicio
+
     def CheckMatricula(self,varMatricula):
         with open('coches.txt',mode='r',encoding='utf-8')as archivo:
             for linia in archivo:
@@ -13,7 +13,7 @@ class Coche:
                 if varMatricula.upper() == matricula.upper() and Disponible == "SI":
 
 
-                    print(linia)
+                    print("")
 
 
                     return True

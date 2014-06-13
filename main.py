@@ -25,28 +25,33 @@ while eleccion != 5:
 
     #ALQUILAR COCHE
     if eleccion == 0:
+        clienteEncontrado=False
 
         print("Introduzca su Dni/Nif:")
         nifIntro=str(input())
         Cliente = Cliente(nifIntro)
         if Cliente.CheckCliente(nifIntro):
 
+            clienteEncontrado = True
+
             print("Quiere algun coche en concreto?")
             print("")
             print("Introduzca la matrcula del coxe que desea:")
             matricula=str(input())
 
-            Coche = Coche(matricula,"")
+            Coche = Coche(matricula)
 
             if Coche.CheckMatricula(matricula):
 
                 print("Disponible")
 
-                menu()
 
+            else:
+                print("Coche no disponible.")
 
-
-        print("NO ENCONTRADO")
+        if clienteEncontrado == False:
+            print("NO ENCONTRADO")
+        nifIntro = ""
         menu()
 
     if eleccion == 1:
@@ -55,7 +60,7 @@ while eleccion != 5:
 
         print("Lista de coches disponibles:")
 
-        Coche = Coche("",Condicio)
+        Coche = Coche("")
         Coche.CheckCochesDisponibles(Condicio)
 
         menu()
@@ -66,12 +71,30 @@ while eleccion != 5:
 
         print("Lista de coches disponibles:")
 
-        Coche = Coche("",Condicio)
+        Coche = Coche("")
 
         Coche.CheckCochesAlquilados()
 
         menu()
-    
+
+    if eleccion == 3:
+        print("Rellene los siguientes campos por favor:")
+        print("Matricula: ")
+        matricula=str(input())
+        print("Marca: ")
+        marca=str(input())
+        print("Modelo: ")
+        modelo=str(input())
+        print("precio/dia: ")
+        precio=str(input())
+
+        with open('coches.txt', mode='a', encoding='utf-8')as archivo:
+            archivo.write(matricula+","+marca+","+modelo+","+precio+","+"SI"+"\n")
+
+            print("Coche registrado!!")
+            menu()
+
+
 
 
 if eleccion == 5:
