@@ -6,17 +6,30 @@ class Coche:
 
     def CheckMatricula(self,varMatricula):
         with open('coches.txt',mode='r',encoding='utf-8')as archivo:
+            newLine=""
+            oldLine=""
+            foundMatricula=False
             for linia in archivo:
                 matricula, marca, model,diners,disponible= linia.split(',',4)
                 Disponible = disponible.strip("\n")
 
                 if varMatricula.upper() == matricula.upper() and Disponible == "SI":
 
+                    newLine=(matricula+","+marca+","+model+","+diners+","+"NO"+"\n")
+                    foundMatricula=True
 
-                    print("")
+                else:
+                    oldLine = oldLine+(matricula+","+marca+","+model+","+diners+","+"NO"+"\n")
 
 
-                    return True
+            FinalLine=oldLine+newLine
+
+        if foundMatricula:
+            with open('coches.txt', mode='w', encoding='utf-8')as archivo:
+                archivo.write(FinalLine)
+                return True
+        else:
+            return False
 
     def CheckCochesDisponibles(self,varCondicio):
         with open('coches.txt',mode='r',encoding='utf-8')as archivo:
