@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af5ca00-d9d3-4c07-8322-f2cbc0afb1ec" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\alex\Documents\GitHub\Examen_UF3\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\alex\Documents\GitHub\Examen_UF3\.idea\Examen_UF3.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\alex\Documents\GitHub\Examen_UF3\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\alex\Documents\GitHub\Examen_UF3\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\alex\Documents\GitHub\Examen_UF3\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\alex\Documents\GitHub\Examen_UF3\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\alex\Documents\GitHub\Examen_UF3\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\alex\Documents\GitHub\Examen_UF3\.idea\workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alquileres.txt" afterPath="$PROJECT_DIR$/alquileres.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coche.py" afterPath="$PROJECT_DIR$/coche.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coches.txt" afterPath="$PROJECT_DIR$/coches.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Examen_UF3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +32,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="10" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.32" vertical-offset="1274" max-vertical-offset="2091">
+            <state line="90" column="25" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.4410959" vertical-offset="1369" max-vertical-offset="1836">
               <folding>
                 <element signature="e#21#48#0" expanded="true" />
               </folding>
@@ -49,7 +43,7 @@
       <file leaf-file-name="coches.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coches.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="11" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -58,7 +52,7 @@
       <file leaf-file-name="alquileres.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alquileres.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="40" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+            <state line="6" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -67,7 +61,7 @@
       <file leaf-file-name="coche.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coche.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="24" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1139">
+            <state line="28" column="94" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
@@ -108,11 +102,11 @@
         <option value="$PROJECT_DIR$/comprovacioDni.py" />
         <option value="$PROJECT_DIR$/clientes" />
         <option value="$PROJECT_DIR$/Cliente.py" />
-        <option value="$PROJECT_DIR$/alquileres.txt" />
         <option value="$PROJECT_DIR$/AddCoche.py" />
+        <option value="$PROJECT_DIR$/alquileres.txt" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/coches.txt" />
         <option value="$PROJECT_DIR$/coche.py" />
+        <option value="$PROJECT_DIR$/coches.txt" />
       </list>
     </option>
   </component>
@@ -355,25 +349,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="0" width="1346" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980901" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980901" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34615386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -407,30 +401,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alquileres.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="40" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coche.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1139">
+        <state line="28" column="94" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coches.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+        <state line="11" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alquileres.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="10" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.32" vertical-offset="1274" max-vertical-offset="2091">
+        <state line="90" column="25" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.4410959" vertical-offset="1369" max-vertical-offset="1836">
           <folding>
             <element signature="e#21#48#0" expanded="true" />
           </folding>

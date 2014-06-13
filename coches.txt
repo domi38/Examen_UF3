@@ -1,10 +1,11 @@
 2222,marca2,modelo2,30,NO
 3333,marca3,modelo3,40,NO
-4444,marca4,modelo4,50,NO
 5555,marca5,modelo5,60,NO
-6666,marca6,model6,70,NO
-7777,marca7,modelo7,80,NO
-8888,marca8,modelo8,90,NO
-1212,marca12,modelo12,100,NO
+7777,marca7,modelo7,80,SI
 1313,marca13,modelo13,110,NO
-1111,marca1,modelo1,20,NO
+1111,marca1,modelo1,20,SI
+4444,marca4,modelo4,50,NO
+1414,marca14,modelo14,145,NO
+1212,marca12,modelo12,100,NO
+6666,marca6,model6,70,NO
+8888,marca8,modelo8,90,NO

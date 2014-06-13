@@ -29,8 +29,8 @@ while eleccion != 5:
 
         print("Introduzca su Dni/Nif:")
         nifIntro=str(input())
-        Cliente = Cliente(nifIntro)
-        if Cliente.CheckCliente(nifIntro):
+        Cli = Cliente(nifIntro)
+        if Cli.CheckCliente(nifIntro):
 
             clienteEncontrado = True
 
@@ -39,19 +39,18 @@ while eleccion != 5:
             print("Introduzca la matrcula del coxe que desea:")
             matricula=str(input())
 
-            Coche = Coche(matricula)
+            C = Coche(matricula)
 
-            if Coche.CheckMatricula(matricula):
+            if C.CheckMatricula(matricula,nifIntro):
 
-                print("Disponible")
-
+                print("Que disfrute del coche!!!")
 
             else:
                 print("Coche no disponible.")
 
         if clienteEncontrado == False:
             print("NO ENCONTRADO")
-        nifIntro = ""
+
         menu()
 
     if eleccion == 1:
@@ -60,8 +59,8 @@ while eleccion != 5:
 
         print("Lista de coches disponibles:")
 
-        Coche = Coche("")
-        Coche.CheckCochesDisponibles(Condicio)
+        co = Coche("")
+        co.CheckCochesDisponibles(Condicio)
 
         menu()
 
@@ -71,9 +70,9 @@ while eleccion != 5:
 
         print("Lista de coches disponibles:")
 
-        Coche = Coche("")
+        Coc = Coche("")
 
-        Coche.CheckCochesAlquilados()
+        Coc.CheckCochesAlquilados()
 
         menu()
 
@@ -94,25 +93,11 @@ while eleccion != 5:
             print("Coche registrado!!")
             menu()
 
-
+    if eleccion == 4:
+        print("TODO")
+        menu()
 
 
 if eleccion == 5:
     print("")
     print("CERRANDO...")
-# print("Quiere algun coche en concreto?")
-#             print("")
-#             print("Introduzca la matrcula del coxe que desea:")
-#             matricula=str(input())
-#
-#             Coche = Coche(matricula)
-#
-#             if Coche.CheckMatricula(matricula):
-#
-#                 print("Disponible")
-#
-#
-#             print("Lo sentimos pero el coche que desea no esta disponible en estos momentos.")
-#
-#         print("Lo sentimos pero no esta registrado como cliente.")
-#         menu()
