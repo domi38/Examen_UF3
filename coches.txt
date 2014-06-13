@@ -1,0 +1,4 @@
+1111,marca1,modelo1,20,SI
+2222,marca2,modelo2,30,NO
+3333,marca3,modelo3,40,NO
+4444,marca4,modelo4,50,SI
